@@ -7,9 +7,14 @@
 			function fun1() {
 				window.location.href = "http://www.apache.org";	//현재 url을 강제로 바꿔버리는
 			}
+			
+			function fun2() {
+				window.location.reload();
+			}
 		</script>
 	</head>
 	<body>
-		<button onclick = "fun1()"> 아파치 페이지로 이동 </button>
+		<button onclick = "fun1()"> 아파치 페이지로 이동 </button> <br/>
+		<button onclick = "fun2()"> 새로고침 </button> <br/>
 	</body>
 </html>
